@@ -1,5 +1,5 @@
 import { Container } from './styles'
-import reactIcon from '../../assets/react-icon.svg'
+// import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
@@ -16,8 +16,9 @@ export function Footer() {
       </a>
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
+        {/* <img src={reactIcon} alt="React"} /> */}
+          This Website was made with          
+          <span>❤️</span>
         </p>
       </div>
       <div className="social-media">
